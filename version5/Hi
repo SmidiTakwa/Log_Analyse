@@ -1,0 +1,73 @@
+Apr 23 06:52:39 sagemcom user.warn kernel: 065000.897 EL: 56 0x2f18 0 2f9444 9b
+Apr 23 06:52:52 sagemcom daemon.info : can't run '/sbin/getty': No such file or directory
+Apr 23 06:52:52 sagemcom daemon.info : process '/sbin/getty -L  ttyS0 115200 vt100 ' (pid 16414) exited. Scheduling for restart.
+Jul  7 22:32:37 sagemcom local0.err tr69d[4076]: [190279:284][TR69D][rpc.c:2287][rpc_session_handle_rpc] unable to receive RPC
+Jul  7 22:12:41 sagemcom local0.info networkServiceserver: [189083:192][networkServiceSERVER][networkService.c:305][dig_thread] output is >> 
+Jul  8 07:40:05 sagemcom local0.warn caswarex: [339082:502][VERIMATRIX][vriptv_init.c:160][sync_start_online] failed on both online and offline initialization
+Jul  8 07:40:05 sagemcom local0.err caswarex: [339082:502][VERIMATRIX][vriptv_init.c:195][sync_start_online] VMConfig failed, will retry in 60 s
+Jul  8 07:40:06 sagemcom daemon.info : starting pid 26018, tty '/dev/ttyS0': '/sbin/getty -L  ttyS0 115200 vt100 '
+Jun 28 13:18:01 sagemcom local0.debug middleware: [3056075:448][MAPI_JSX][jsx.c:338][JSX_GetSet] -- sagem.Get ("BTSTREAM", "STATUS")
+Jun 28 13:18:01 sagemcom local0.debug middleware: [3056075:448][MAPI_JSX][jsx.c:364][JSX_GetSet]   -> returned BTSTREAM_STOPPED
+Jun 28 13:18:08 sagemcom local0.warn angie: [3056082:061][PARSER_HLS_EXTENDED_INJECTION][parser_hls_extended_injection.c:678][hls_extended_injection_send_variant_change_notification] add VIDEO variant changed message
+Jun 27 09:03:00 sagemcom user.alert kernel: dhd_prot_flow_ring_create: Send Flow Create Req flow ID 12 for peer 5c:ba:ef:50:90:75 prio 2 ifindex 2
+Jun 27 09:03:00 sagemcom user.alert kernel: dhd_prot_flow_ring_create_response_process: Flow Create Response status = 0 Flow 12
+Jun 27 08:57:30 sagemcom user.alert kernel: *** 477638:57:08.48 nexus_audio_input_capture: Setting volume... first is 0x800000
+Jun 27 08:57:30 sagemcom user.alert kernel: *** 477638:57:08.48 nexus_audio_input_capture: Setting volume... first is 0x800000
+Jun 27 08:57:30 sagemcom user.alert kernel: *** 477638:57:08.48 bape_input_port: No output or mixer clock source found downstream from input port PDM Input 0. No free Pll found either. Default to Pll0.
+Jun 28 13:18:08 sagemcom user.warn kernel: ### 477667:17:58.48 nexus_video_decoder_priv: global_video_delay defined to 0 => 0
+Jun 28 13:18:08 sagemcom user.warn kernel: *** 477667:17:58.48 synclib: [0] vsrc[0] rate mismatch; precision lipsync: disabled
+May 30 18:12:28 sagemcom local0.warn opal_daemond: [3890:955][OPAL_STC_DM][mopal_stc_pdf_del_client.c:154][mopal_stc_unsubscribe_audio] opal_event_unsubscribe audio freeze already done
+May 30 18:12:48 sagemcom user.warn kernel: ### 476976:12:38.06 nexus_video_decoder_priv: global_video_delay defined to 0 => 0
+May 30 18:12:48 sagemcom user.warn kernel: *** 476976:12:38.06 bape_ddre: Master input detected, but codec is not a dolby multi-stream codec (Opus).  Forcing external PCM mode.
+Dec 31 18:00:07 sagemcom user.info kernel: CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Dec 31 18:00:07 sagemcom user.info kernel: OF: fdt: Machine model: M377_TTP_1_72127
+Dec 31 18:00:07 sagemcom user.info kernel: Memory policy: Data cache writealloc
+Dec 31 18:00:07 sagemcom user.info kernel: usbcore: registered new interface driver usbfs
+Dec 31 18:00:07 sagemcom user.info kernel: usbcore: registered new interface driver hub
+Dec 31 18:00:07 sagemcom user.info kernel: usbcore: registered new device driver usb
+Dec 31 18:00:07 sagemcom user.info kernel: Bluetooth: SCO socket layer initialized
+Dec 31 18:00:07 sagemcom user.info kernel: clocksource: Switched to clocksource arch_sys_counter
+Dec 31 18:00:07 sagemcom user.info kernel: thermal_sys: Registered thermal governor 'step_wise'
+Dec 31 18:00:07 sagemcom user.info kernel: ohci-platform: OHCI generic platform driver
+Dec 31 18:00:07 sagemcom user.info kernel: usbcore: registered new interface driver cdc_acm
+Dec 31 18:00:08 sagemcom user.warn kernel: [totalplay_early_leds] i2c_check_status: I2C_ERROR_NO_ACK
+Dec 31 18:00:10 sagemcom user.warn kernel: nexus driver initialized
+Dec 31 18:00:10 sagemcom user.warn kernel: !!!Error BERR_NOT_INITIALIZED(0x1) at /workspaces/worker/jenkins14/workspace/TPL_DIW377_OFFICIAL_PROD_RELEASE-181/output/fooboard/build/ursr-REFSW_PATCH_UNIFIED_22_20230808_dmz/nexus/../obj.m393genb_72180/nexus/core/syncthunk/nexus_security_thunks.c:1054
+Dec 31 18:00:10 sagemcom user.warn kernel: Read OTP ID error
+Dec 31 18:00:10 sagemcom user.warn kernel: get_key failed datafs1[logon/32] 64: 2d7274905d8e4ed75d5dce41db624e06ecab1b32cd163fc7cdfa7dc24970c0ba
+Dec 31 18:00:10 sagemcom user.warn kernel:  ^M
+Dec 31 18:00:10 sagemcom user.warn kernel: add key error
+Dec 31 18:00:10 sagemcom user.warn kernel:     00:00:00.351 nexus_platform_cma: reserved region:7 MEMC0 'NWMBOX' 0x0bdfff000...0x0be000000
+Dec 31 18:00:10 sagemcom user.warn kernel:     00:00:00.351 nexus_platform_cma: reserved region:8 MEMC0 'SRR' 0x0be000000...0x0c0000000
+Dec 31 18:00:10 sagemcom user.warn kernel:     00:00:00.351 nexus_platform_cma: current Linux boot parameters: 'bmem=1025m@2014m'
+Dec 31 18:00:10 sagemcom user.warn kernel:     00:00:00.377 nexus_platform_os: virtual irq: enabled (273)
+Dec 31 18:00:10 sagemcom user.warn kernel: *** 00:00:00.377 nexus_platform_os: virtual l2 enabled
+Dec 31 18:00:29 sagemcom local0.warn bluezman: [23:829][BLUEZMAN_JSON][json.c:2137][json_init] JSON interface will bind all interfaces
+Dec 31 18:00:19 sagemcom daemon.info bluetoothd[4589]: Bluetooth daemon 5.63
+Dec 31 18:00:29 sagemcom daemon.info bluetoothd[4589]: Bluetooth daemon 5.63
+Dec 31 18:00:29 sagemcom user.info kernel: [osl_sec_dma_alloc_consistent]: allocating secure memory size=24576 align=4 *pap=170655744 va=4ded3263
+Dec 31 18:00:29 sagemcom user.warn kernel: SECDMA successfully attached ring h2dflr_035
+Dec 31 18:00:29 sagemcom user.info kernel: [osl_sec_dma_alloc_consistent]: allocating secure memory size=24576 align=4 *pap=170721280 va=92f31d36
+Dec 31 18:00:29 sagemcom user.warn kernel: SECDMA successfully attached ring h2dflr_036
+Dec 31 18:00:29 sagemcom user.warn kernel: 000000.320 EL: 51 0x6264 0 0
+Dec 31 18:00:29 sagemcom user.warn kernel: 000000.320 EL: 51 0x6270
+Dec 31 18:00:29 sagemcom local0.err bluezman: [24:120][BLUEZMAN_BT_BLUEZ][bluez_dbus_signals.c:156][signal_interfaces_added_callback] signal_interfaces_added_callback: Uknwown parsing, obj_path: /org/bluez str: org.bluez.AgentManager1
+Dec 31 18:00:37 sagemcom local0.debug sc-network-manager: [32:128][SC_NETWORK_MANAGER_MAP][map_monitor.c:581][scnm_map_monitor_enable_controller_discovery] Start MapCtrlWatch on ethernet interface
+Dec 31 18:00:37 sagemcom local0.err sc_net: [32:129][SC_NET_API][api.c:4938][scn_api_iface_set_map_ctrl_watch_state] Starting Map Control Watch for interface 2
+Dec 31 18:00:37 sagemcom local0.err sc_net: [32:129][SC_NET_API][api.c:4955][scn_api_iface_set_map_ctrl_watch_state] Call utl_addMapCtrlWatch_ifc
+Dec 31 18:00:37 sagemcom local0.err sc_net: [32:130][SC_NET_API][api.c:4821][cbEvtMapCtrlWatch] Send event mapctrlwatch initialized
+Dec 31 18:00:37 sagemcom local0.err sc-network-manager: [32:130][SC_NETWORK_MANAGER_MAP][map_monitor.c:807][scnm_map_monitor_init] **** CHECK START ******
+Dec 31 18:00:37 sagemcom local0.debug sc-network-manager: [32:130][SC_NETWORK_MANAGER_MAP][map_monitor.c:1521][scnm_map_monitor_check_start] +++++++++++++++++++++++++++++++++1 0 0 0 0 1++++++++++++++++++++++++++++
+Dec 31 18:00:07 sagemcom user.debug kernel: On node 0 totalpages: 516095
+Dec 31 18:00:07 sagemcom user.debug kernel:   DMA zone: 1258 pages used for memmap
+Dec 31 18:00:07 sagemcom user.debug kernel:   DMA zone: 0 pages reserved
+Dec 31 18:00:07 sagemcom user.debug kernel:   DMA zone: 161024 pages, LIFO batch:31
+Dec 31 18:00:07 sagemcom user.debug kernel:   HighMem zone: 355071 pages, LIFO batch:63
+Dec 31 18:00:07 sagemcom user.info kernel: psci: probing for conduit method from DT.
+Dec 31 18:00:07 sagemcom user.info kernel: psci: PSCIv1.1 detected in firmware.
+Dec 31 18:00:07 sagemcom user.info kernel: psci: Using standard PSCI v0.2 function IDs
+Dec 31 18:00:07 sagemcom user.info kernel: psci: Trusted OS resident on physical CPU 0x0
+Dec 31 18:00:07 sagemcom user.info kernel: psci: SMC Calling Convention v1.1
+Dec 31 18:00:07 sagemcom user.info kernel: percpu: Embedded 15 pages/cpu s31180 r8192 d22068 u61440
+Dec 31 18:00:07 sagemcom user.debug kernel: pcpu-alloc: s31180 r8192 d22068 u61440 alloc=15*4096
+Dec 31 18:00:07 sagemcom user.debug kernel: pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
